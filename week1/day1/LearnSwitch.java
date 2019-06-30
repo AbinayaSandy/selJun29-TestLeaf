@@ -1,7 +1,6 @@
 package week1.day1;
 
 public class LearnSwitch {
-
 	public static void main(String[] args) {
 		int day = 1;
 		switch (day) {
@@ -14,15 +13,6 @@ public class LearnSwitch {
 		default:
 			System.out.println("other day");
 			break;
-
-
 		}
-
-
 	}
-
 }
-
-
-
-

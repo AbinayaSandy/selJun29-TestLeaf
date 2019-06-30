@@ -12,6 +12,7 @@ public class Car {
 		System.out.println("I am driving the car");
 	}
 	public String getColor() {
+		System.out.println();
 		return "white";
 	}
 	public static void main(String[] args) {
