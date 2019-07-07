@@ -1,11 +1,7 @@
 package week2.day1;
 
-import java.util.List;
-
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 public class LogIn {
 
@@ -16,6 +12,7 @@ public class LogIn {
 				"./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		//Load URL
+		driver.navigate().to("http://leaftaps.com/opentaps");
 		driver.get("http://leaftaps.com/opentaps");
 		//Find User Name And Enter
 		
