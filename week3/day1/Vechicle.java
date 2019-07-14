@@ -1,7 +1,7 @@
 package week3.day1;
 
 public class Vechicle {
-	public void applyBrake() {
+	public final void applyBrake() {
 		System.out.println("Apply normal Brake");
 	}
 
